@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+@media (max-width: 760px){
+
+    body, main{
+        overflow-y: scroll;
+    }
+
+    #main{
+        flex-direction: column;
+    }
+
+    .formulario, .informações{
+        width: 300px;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    input[type="email"], input[type="password"], input[type="text"], input[type="submit"]{
+        width: 300px;
+    }
+
+    .informações img{
+        width: 300px;
+    }
+
+    .informações h1{
+        font-size: 25px;
+    }
+}
